@@ -1,6 +1,6 @@
 # Dynamisez une page web avec des animations CSS.
 
-Visible à l'adresse: https://rafaremote.github.io/OC-WebDev-P3-animations./
+
 
 <br />
 <br />
