@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(255, 245, 254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 25px;    
+    font-family: 'Croissant', 'Courier New', Courier, monospace;
+    letter-spacing: 1.1px;
+    background-image: linear-gradient(135deg, rgb(227,136,8), rgb(150,102,251));
+    background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+}   
+
+
+h2 {
+    background: linear-gradient(
+        to top,
+        rgba(180, 127, 187, 1) 0%, 
+        rgba(180, 127, 187, 1) 10%, 
+        transparent 10.01%) 
+        no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+}
+
+
+h2:hover {
+    background-size: 100% 100%;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.moment > h2 {
+    font-size: 16px;
+    align-self: flex-start;
+    transform: translateY(-5px);
+}
+
+section > .met {
+    width: 80%;
+}
+
+.met > .name {
+    font-size: 12px;
+}
+
+img {
+    width: 100px;
+    transform: scaleY(0.3);
+    align-self: center;
+}
+
+img:nth-of-type(1) {
+    transform: scaleY(0.3) rotate(180deg);
+}
+
+#entree {
+    color: rgb(205,131,61);
+    
+}
+
+#plat_principal {
+    color: rgb(180, 112, 166);
+
+}
+
+#dessert {
+    color: rgb(109,73,204);
+}
+
+section > .met:last-of-type{
+    padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width:568px) {
+
+    section {
+        width: 95%;
+    }
+
+    
+    .moment > h2 {
+        font-size: 11px;
+        width: 95%;
+        align-self: flex-start;
+    }
+
+    .moment > img {
+        width: 5%;
+    }
+    
+    section > .met {
+        width: 90%;
+    }
+
+
+    .met > .name {
+        width: 90%;
+    }
+    
+  
+}
+
+@media only screen and (min-width: 768px) {
+    
+    img:nth-of-type(even) {
+    
+        transform: scaleY(0.3);
+    }
+}

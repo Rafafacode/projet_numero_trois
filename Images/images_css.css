@@ -1,0 +1,80 @@
+
+/* déclaration pour la création du logo en forme de note */
+
+.container_note {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #fae0dc;
+    transform-origin: center;
+    transform: scale(0.35) translateX(-30px);
+}
+
+.note {
+    width: 50px;
+    height: 45px;
+    border-radius: 60% 40%;
+    background-color: #ee5d61;
+    position: relative;
+    top: 50px;
+    left: 0;
+    z-index: 2;
+}
+
+.rond{
+    width: 50px;
+    height: 45px;
+    border-radius: 60% 40%;
+    background-color: #f29169;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+.branche {
+    width: 10px;
+    height: 118px;
+    background-color: #f29169;
+    position: relative;
+    left: 40px;
+    bottom: 99px;
+}
+
+.branche2 {
+    width: 10px;
+    height: 120px;
+    background-color: #ee5d61;
+    position: relative;
+    left: -100px;
+    bottom: -20px;
+}
+
+.patte1 {
+    width: 110px;
+    height: 12px;
+    background: rgb(238,81,96);
+    background: linear-gradient(90deg, rgba(238,81,96,1) 0%, rgba(242,143,102,1) 100%);
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+    transform-origin: left;
+    transform: skewY(-10deg);
+    z-index: 10;
+}
+
+.patte2 {
+    width: 110px;
+    height: 12px;
+    background: rgb(238,81,96);
+    background: linear-gradient(90deg, rgba(238,81,96,1) 0%, rgba(242,143,102,1) 100%);
+    position: relative;
+    bottom: 190px;
+    right: 60px;
+    transform-origin: left;
+    transform: skewY(-10deg);
+    z-index: 10;
+}
+
+/* fin déclatations note */

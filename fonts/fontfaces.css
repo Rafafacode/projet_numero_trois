@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'Devon';
+    src:url('../fonts/Devonshire-Regular.ttf.woff') format('woff'),
+        url('../fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular') format('svg'),
+        url('../fonts/Devonshire-Regular.ttf.eot'),
+        url('../fonts/Devonshire-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dekko";
+    src:url('../fonts/Dekko-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'palette';
+    src:url('../fonts/palette.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'delice_main';
+    src:url('../fonts/delice_main.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'croissant';
+    src: url('../fonts/croissant.ttf'),
+         url('../fonts/croissant-webfont.woff2') format('woff2'),
+         url('../fonts/croissant-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Chic';
+    src:url('../fonts/chic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'delice';
+    src:url('../fonts/delice.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
